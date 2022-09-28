@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+
+    <section>
+        <div class="calc">
+
+            <div class="display">
+                <input id="result" type="text" placeholder="0" >
+            </div>
+            <div class="buttons">
+
+                <button onclick="displayNum(7)" type="button" name="Seven" value="7">7</button>
+                <button onclick="displayNum(8)" type="button" name="Eight" value="8">8</button>
+                <button onclick="displayNum(9)" type="button" name="Nine" value="9">9</button>
+                <button onclick="displayNum('/')" type="button" name="division" value="/">/</button>
+                <button onclick="displayNum(4)" type="button" name="Four" value="4">4</button>
+                <button onclick="displayNum(5)" type="button" name="Five" value="5">5</button>
+                <button onclick="displayNum(6)" type="button" name="Six" value="6">6</button>
+                <button onclick="displayNum('*')" type="button" name="multiply" value="">*</button>
+                <button onclick="displayNum(1)" type="button" name="One" value="1">1</button>
+                <button onclick="displayNum(2)" type="button" name="Two" value="2">2</button>
+                <button onclick="displayNum(3)" type="button" name="Three" value="3">3</button>
+                <button onclick="displayNum('-')" type="button" name="Substract" value="subtract">-</button>
+                <button onclick="displayNum(0)" type="button" name="Zero" value="0">0</button>
+                <button onclick="displayNum('.')" type="button" name="Point" value="Point">.</button>
+                <button onclick="displayNum('+')" type="button" name="Addition" value="+">+</button>
+                <button onclick="evalExpr()" class="eql" type="button" name="Equal" value="Equal">=</button>
+                <button onclick="allclear()" type="button" name="clear" >AC</button>
+                <button onclick="backSpace()" type="button" name="negative">&#9003</button>
+                <button type="button" name="cancel" value="%">%</button>
+
+</body>
+<script src="./calcu.js"></script>
+</html>
